@@ -77,4 +77,4 @@ async function main() {
   console.log("Seed data inserted!");
 }
 
-main();
+void main();

@@ -2,6 +2,7 @@ import type { Database as DB } from "./types";
 import { Pool } from "pg";
 import { Kysely, PostgresDialect } from "kysely";
 import { env } from "~/env";
+import "server-only";
 
 const dialect = new PostgresDialect({
   pool: new Pool({

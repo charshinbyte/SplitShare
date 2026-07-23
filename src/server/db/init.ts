@@ -73,4 +73,4 @@ await db.schema
   console.log("Tables created!");
 }
 
-main();
+void main();
